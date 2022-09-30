@@ -94,6 +94,25 @@ into the {body} tag of the default.hbs template --}}
         <section class="article-comments gh-canvas">
             {{comments}}
         </section>
+    {{else}}
+        <section class="giscus article-comments gh-canvas">
+            <script src="https://giscus.app/client.js"
+                data-repo="ricardodemauro/rmaurodev-discuss"
+                data-repo-id="R_kgDOIGOX1Q"
+                data-category="Announcements"
+                data-category-id="DIC_kwDOIGOX1c4CRth0"
+                data-mapping="og:title"
+                data-strict="1"
+                data-reactions-enabled="1"
+                data-emit-metadata="0"
+                data-input-position="top"
+                data-theme="preferred_color_scheme"
+                data-lang="en"
+                data-loading="lazy"
+                crossorigin="anonymous"
+                async>
+            </script>
+        </section>
     {{/if}}
 
 </article>
