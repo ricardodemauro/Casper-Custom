@@ -1011,6 +1011,8 @@
                     <time class="post-date" datetime="{{date format="YYYY-MM-DD"}}">{{date format="DD MMM YYYY"}}</time>
                 </section>
             </header>
+            
+            {{#match @custom.post_image_style "!=" "Hidden"}}
             {{#if feature_image}}
             <figure class="post-image">
                 <amp-img src="{{img_url feature_image absolute="true"}}" width="600" height="340" layout="responsive" 
@@ -1018,6 +1020,8 @@
                 ></amp-img>
             </figure>
             {{/if}}
+            {{/match}}
+            
             <section class="post-content">
 
                 {{amp_content}}
