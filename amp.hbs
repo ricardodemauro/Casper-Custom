@@ -879,6 +879,24 @@
         width: 100%;
     }
 
+    .post-content table {
+        -webkit-overflow-scrolling: touch;
+        background: radial-gradient(ellipse at left,rgba(0,0,0,.2) 0,transparent 75%) 0,radial-gradient(ellipse at right,rgba(0,0,0,.2) 0,transparent 75%) 100%;
+        background-attachment: scroll,scroll;
+        background-repeat: no-repeat;
+        background-size: 10px 100%,10px 100%;
+        border-collapse: collapse;
+        border-spacing: 0;
+        display: inline-block;
+        font-family: var(--font-sans);
+        font-size: 1.6rem;
+        max-width: 100%;
+        overflow-x: auto;
+        vertical-align: top;
+        white-space: nowrap;
+        width: auto;
+    }
+
     .post-content th {
         padding: 0.5em 0.8em;
         text-align: left;
