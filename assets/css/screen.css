@@ -1026,7 +1026,7 @@ make sure this only happens on large viewports / desktop-ish devices.
 }
 
 .page-template .article-header {
-    padding-bottom: max(3.2vmin, 28px);
+    padding-bottom: max(2vmin, 30px);
 }
 
 .article-tag {
