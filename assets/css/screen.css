@@ -1022,7 +1022,7 @@ make sure this only happens on large viewports / desktop-ish devices.
 }
 
 .article-header {
-    padding: 0 0 max(6.4vmin, 40px) 0;
+    padding: 0 0 max(2vmin, 30px) 0;
 }
 
 .page-template .article-header {
