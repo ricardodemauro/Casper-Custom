@@ -259,6 +259,26 @@ body:not(.has-cover) .site-header-content:not(.left-aligned) {
     background-color: #fff;
 }
 
+.gh-feedback {
+    text-align: center;
+}
+
+.gh-feedback button {
+    border: none;
+    border-radius: 3em;
+    color: #fff;
+    background-color: #0074bd;
+    cursor: pointer;
+    display: block;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 700;
+    margin: 1rem auto;
+    padding: 0.4rem 0.8rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
 .has-cover:not(.home-template) .gh-head {
     background-color: var(--ghost-accent-color);
     color: #fff;
