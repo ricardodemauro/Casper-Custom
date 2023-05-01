@@ -87,6 +87,13 @@ into the {body} tag of the default.hbs template --}}
     <section class="gh-content gh-canvas">
         {{content}}
     </section>
+    
+    <section class="gh-feedback">
+        <h2>How was the tutorial?</h2>
+        <button onclick="appzi && appzi.openSurvey('f9800dd4-8e22-4565-82f3-78498fbe7d94')">
+            Give us some feedback
+        </button>
+    </section>
 
     <section class="gh-content gh-canvas gh-share">
         {{> "share-block"}}
